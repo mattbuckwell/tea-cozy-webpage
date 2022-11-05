@@ -41,3 +41,30 @@ nav ul li {
 a {
     color: var(--primary);
 }
+
+/* Header Section */
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-container {
+    width: 1200px;
+    height: 700px;
+    background-image: url(./images/img-mission-background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    flex-shrink: 1;
+}
+
+.hero {
+    text-align: center;
+    width: 100%;
+    background-color: #000;
+}
+
+
+
