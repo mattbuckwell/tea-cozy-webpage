@@ -11,7 +11,8 @@ body {
 }
 
 h2,
-h4 {
+h4,
+h3 {
     text-align: center;
 }
 
@@ -84,7 +85,7 @@ header {
     height: 800px;
 }
 
-.tea-images {
+.tea-panels {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -93,7 +94,11 @@ header {
 .tea-img {
     width: 300px;
     height: 200px;
-    margin: 10px
+    margin: 0 15px;
+}
+
+.tea-name {
+    margin: 10px 0 20px 0;
 }
 
 /* Main > Locations Section */
