@@ -12,7 +12,8 @@ body {
 
 h2,
 h4,
-h3 {
+h3,
+h5 {
     text-align: center;
 }
 
@@ -132,5 +133,16 @@ header {
 
 .panels p {
     margin-top: 40px;
+}
+
+/* Footer Section */
+
+.footer-container {
+    height: 200px;
+}
+
+.copyright {
+    text-align: start;
+    margin-left: 20px;
 }
 
