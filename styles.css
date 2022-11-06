@@ -28,10 +28,13 @@ h5 {
 nav {
     display: flex;
     justify-content: space-between;
+    background-color: #000;
     border-bottom: 1px solid seashell;
     align-items: center;
     height: 69px;
     width: 100%;
+    position: fixed;
+    z-index: 1;
 }
 
 .nav-logo {
@@ -72,6 +75,8 @@ header {
     align-items: center;
     background-size: cover;
     flex-shrink: 1;
+    position: relative;
+    top: 70px;
 }
 
 .hero {
@@ -82,6 +87,7 @@ header {
 /* Main > Featured Tea Section */
 
 .tea-container {
+    margin-top: 70px;
     width: 1000px;
 }
 
